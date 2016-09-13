@@ -8,7 +8,11 @@ $app->get('/', function($request, $response, $args){
     return $response;
 
 });
-
-
 $app->run();
 ?>
+
+|Temas||Preguntas||Respuestas|
+--
+|id||titulo||titulo_url|
+|id||pregunta||pregunta_url||tema|
+|id||respuesta||verdadera||pregunta|
