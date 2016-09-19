@@ -9,6 +9,10 @@ $c['view'] = new \Slim\Views\PhpRenderer('plantillas/');
 $app->get("/", function($request, $response, $args){
     $response = $this->view->render($response, "plantilla1.php", []);
     return $response;
+$app->get("/", function($request, $response, $args){
+        $response = $this->view->render($response, "plantilla2.php", []);
+        return $response;
+  
 });
 
 $app->run();
