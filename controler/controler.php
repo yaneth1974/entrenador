@@ -13,7 +13,11 @@ class Controler{
     }
     public function crearPreguntaNueva($request, $response, $args){
       $params = $request->getParsedBody();
-      $params =$id;
+      $pregunta = $params['pregunta'];
+      $respuesta = $params['respuesta1'];
+      $respuesta = $params['respuesta2'];
+      $respuesta = $params['respuesta3'];
+
     }
 
 
