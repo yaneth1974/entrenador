@@ -34,14 +34,6 @@ class Controler{
       $respuesta = $params['respuesta3'];
 
     }
-    ?>
-    >?php
-    if($res!==FALSE){
-    ?>
-      <p>Instalación finalizada!!</p>
-      <a heref='index.php'>Iniciar el programa</a>
-      <?php }
-      ?>
-    }
+
 }
 ?>
