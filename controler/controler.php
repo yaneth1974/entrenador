@@ -32,7 +32,7 @@ class Controler{
       $respuesta = $params['respuesta1'];
       $respuesta = $params['respuesta2'];
       $respuesta = $params['respuesta3'];
-
+      
     }
 
 }
